@@ -1,0 +1,12 @@
+# Node & Packages
+node_modules/
+bun.lockb
+
+# Project Specific
+brainstorming.md
+/templates/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.log

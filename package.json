@@ -1,0 +1,10 @@
+{
+  "name": "skill-tree-generator",
+  "version": "1.0.0",
+  "description": "Generator for skill tree SVGs",
+  "main": "src/generateSvg.js",
+  "scripts": {
+    "start": "bun src/generateSvg.js"
+  },
+  "dependencies": {}
+}

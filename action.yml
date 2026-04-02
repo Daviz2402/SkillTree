@@ -1,0 +1,24 @@
+name: 'Skill Tree Generator'
+description: 'Generates a beautiful Skill Tree SVG from a JSON configuration'
+author: 'YourName'
+inputs:
+  config-path:
+    description: 'Path to the input JSON file'
+    required: false
+    default: 'config/skills.json'
+  output-path:
+    description: 'Path to the output SVG file'
+    required: false
+    default: 'output/skill-tree.svg'
+runs:
+  using: 'composite'
+  steps:
+    - uses: oven-sh/setup-bun@v2
+    - run: bun install
+      shell: bash
+      working-directory: ${{ github.action_path }}
+    - run: bun ${{ github.action_path }}/src/generateSvg.js "${{ inputs.config-path }}" "${{ inputs.output-path }}"
+      shell: bash
+branding:
+  icon: 'cpu'
+  color: 'blue'

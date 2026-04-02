@@ -1,0 +1,179 @@
+{
+    "theme": {
+        "background": "transparent",
+        "text": "#ffffff",
+        "primary": "#58a6ff",
+        "coreRotation": 0,
+        "debug": false,
+        "revealAll": true,
+        "coreLabel": "Tech\\nStack",
+        "glow": false,
+        "sizes": {
+            "coreRadius": 65,
+            "coreText": 18,
+            "categoryRadius": 85,
+            "categoryText": 16,
+            "skillRadius": 36,
+            "skillText": 16
+        }
+    },
+    "categories": [
+        {
+            "name": "Frontend",
+            "color": "#3498db",
+            "start": 0,
+            "skills": [
+                {
+                    "name": "TS",
+                    "level": 80,
+                    "start": 1,
+                    "color": "#3178c6",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "HTML",
+                    "level": 90,
+                    "start": 2,
+                    "color": "#e34f26",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "CSS",
+                    "level": 85,
+                    "start": 3,
+                    "color": "#1572b6",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "Astro",
+                    "level": 90,
+                    "start": 4,
+                    "style": "solid",
+                    "speed": 0
+                }
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "color": "#9b59b6",
+            "start": 1,
+            "rotation": 20,
+            "skills": [
+                {
+                    "name": "Astro",
+                    "level": 90,
+                    "start": 1,
+                    "color": "#ff5d01",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "Tauri",
+                    "level": 50,
+                    "start": 3,
+                    "color": "#ffc131",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "Tailwind",
+                    "level": 85,
+                    "start": 2,
+                    "end": 2,
+                    "color": "#38bdf8",
+                    "style": "solid",
+                    "speed": 0,
+                    "joins": [
+                        {
+                            "name": "CSS",
+                            "start": 4,
+                            "end": 0,
+                            "curvature": 150,
+                            "style": "dashed",
+                            "speed": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Backend",
+            "color": "#e67e22",
+            "start": 2,
+            "skills": [
+                {
+                    "name": "Rust",
+                    "level": 50,
+                    "start": 1,
+                    "color": "#dea584",
+                    "style": "solid",
+                    "speed": 0,
+                    "joins": [
+                        {
+                            "name": "Tauri",
+                            "start": 4,
+                            "end": 1,
+                            "curvature": 0,
+                            "style": "dashed",
+                            "speed": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Python",
+                    "level": 90,
+                    "start": 2,
+                    "style": "solid",
+                    "speed": 0
+                }
+            ]
+        },
+        {
+            "name": "Databases",
+            "color": "#1abc9c",
+            "start": 3,
+            "skills": [
+                {
+                    "name": "Supabase",
+                    "level": 80,
+                    "start": 1,
+                    "color": "#3ecf8e",
+                    "style": "solid",
+                    "speed": 0
+                },
+                {
+                    "name": "SurrealDB",
+                    "level": 50,
+                    "start": 2,
+                    "color": "#ff00a0",
+                    "style": "solid",
+                    "speed": 0
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "color": "#2ecc71",
+            "start": 4,
+            "skills": [
+                {
+                    "name": "Bun",
+                    "level": 95,
+                    "start": 1,
+                    "style": "solid",
+                    "speed": 1
+                },
+                {
+                    "name": "Git",
+                    "level": 90,
+                    "start": 2,
+                    "style": "solid",
+                    "speed": 0
+                }
+            ]
+        }
+    ]
+}
